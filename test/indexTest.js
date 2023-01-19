@@ -13,3 +13,8 @@ describe("index.js", () => {
     expect(input.addEventListener.called).to.be.true;
   })
 })
+
+//const input = document.getElementById('button');
+input.addEventListener('click', function() {
+  alert('I was clicked!');
+});
